@@ -126,7 +126,7 @@ body {
 .digits {
     margin-top: 100px;
 }
-.digits__section-title {
+.section-title {
     line-height: 69px;
     font-size: 60px;
     font-weight: bold;
@@ -138,7 +138,7 @@ body {
     text-align: center;
 
 }
-.digits__section-subtitle {
+.section-subtitle {
     line-height: 34px;
     font-size: 24px;
     font-style: normal;
@@ -149,7 +149,7 @@ body {
     margin-right: auto;
     text-align: center;
 }
-.digits__table {
+.table {
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -159,7 +159,7 @@ body {
     grid-template-columns: repeat(4,1fr);
     
 }
-.digits__table_heading {
+.table__heading {
     line-height: 1.15;
     font-size: 24px;
     font-style: normal;
@@ -167,13 +167,13 @@ body {
     padding: 0;
     margin-bottom: 0;
 }
-.digits__table_text {
+.table__text {
     line-height: 1.2;
     font-size: 18px;
     font-style: normal;
     margin-top: 20px;
 }
-.digits__table_cell {
+.table__cell {
     width: 250px;
 
 }
@@ -227,7 +227,7 @@ body {
     color: #F2F2F2;
     
 }
-.kaufman__table__theme_dark {
+.table__theme_dark {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     width: 1100px;
@@ -239,7 +239,7 @@ body {
     
     
 }
-.kaufman__title__theme_dark {
+.section-title_theme_dark {
     line-height: 69px;
     font-size: 60px;
     font-weight: bold;
@@ -252,7 +252,7 @@ body {
     margin-bottom: 20px;
     z-index: 2;
 }
-.kaufman__subtitle__theme_dark {
+.section-subtitle_theme_dark {
     line-height: 34px;
     font-size: 24px;
     font-style: normal;
@@ -264,12 +264,12 @@ body {
     margin-bottom: 0;
     z-index: 2;
 }
-.kaufman__table__cell_theme_dark {
+.table__cell_theme_dark {
     width: 200px;
     z-index: 2;
 
 }
-.kaufman__table__heading_theme_dark {
+.table__heading_theme_dark {
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
@@ -277,7 +277,7 @@ body {
     margin-bottom: 20px;
     z-index: 2;
 }
-.kaufman__table__text_theme_dark {
+.table__text_theme_dark {
     line-height: 1.2;
     font-size: 18px;
     font-style: normal;
@@ -340,4 +340,11 @@ body {
 .footer__column_content_social {
     position: absolute;
     right: 0;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
 }
