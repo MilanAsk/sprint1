@@ -3,3 +3,5 @@
 
 My first project
 
+The project was made by Askerov Milan
+
