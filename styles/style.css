@@ -211,12 +211,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    overflow: hidden;
     
 }
 .video__iframe {
     margin: 0 auto;
-    display: inline;
-    justify-content: center;
+    display: inline-block;
+    /* justify-content: center; */
+    width: 515px;
+    height: 316px;
 
 }
 .digits {
